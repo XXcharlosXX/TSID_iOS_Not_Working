@@ -6,8 +6,8 @@ namespace ExampleAppConsentMgr
     public static class TealiumConsts
     {
         public static readonly string InstanceId = "Tealium_Main";
-        public static readonly string AccountName = "tealiummobile";
-        public static readonly string ProfileName = "demo";
+        public static readonly string AccountName = "emf";
+        public static readonly string ProfileName = "klove-mobile";
         public static readonly string Environment = "dev";
         public static readonly string RemoteCommandId = "verify";
 

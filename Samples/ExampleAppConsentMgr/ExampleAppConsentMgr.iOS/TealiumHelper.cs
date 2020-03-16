@@ -67,6 +67,10 @@ namespace ExampleAppConsentMgr.iOS
 
                 var tealium = instanceManager.CreateInstance(config);
 
+                var x = tealium.PersistentDataSourcesCopy().GetValue<string>("tealium_visitor_id");
+                var y = tealium.VolatileDataSourcesCopy();
+                var z = tealium.VolatileDataSourcesCopy().GetValue<string>("tealium_session_id");
+
 
                 //***********************************************************
                 // 4. Optionally add data sources - this is cross-platform too
